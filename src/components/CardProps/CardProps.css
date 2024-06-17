@@ -8,9 +8,9 @@
 div.card-props {
     width: var(--card-width);
     height: var(--card-height);
-    margin: var(--card-space);
     border-radius: var(--card-radius);
     border: 1px solid black;
+    background-color: rgb(151, 151, 235);
 }
 
 div.card-props > img{
@@ -20,20 +20,23 @@ div.card-props > img{
 }
 
 div.card-props__title{
-    width: calc(var(--card-width) - 10px);
+    width: inherit;
+    height: 30px;
     position: absolute;
-    border-radius: inherit;
+    border-radius: 0 0 var(--card-radius) var(--card-radius);
 }
 
 .card-props__title{
     background-color: darkgray;
-    margin: inherit;
+    bottom: 5px;
+
 }
 
 .card-props__title-name{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: inherit;
 }
 
 div.card-props__title > p {
@@ -41,6 +44,8 @@ div.card-props__title > p {
     padding: 2px 5px;
     color: white;
     float: left;
+    line-height: 25px;
+    padding-right: 5px;
 }
 
 div.card-props__title > p:first-child {
