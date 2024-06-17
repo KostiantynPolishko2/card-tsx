@@ -1,5 +1,64 @@
-.card-props {
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
+:root{
+    --card-width: 250px;
+    --card-height: 200px;
+    --card-radius: 5px;
+    --card-space: 5px;
+}
+
+div.card-props {
+    width: var(--card-width);
+    height: var(--card-height);
+    margin: var(--card-space);
+    border-radius: var(--card-radius);
+    border: 1px solid black;
+}
+
+div.card-props > img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+div.card-props__title{
+    width: calc(var(--card-width) - 10px);
+    position: absolute;
+    border-radius: inherit;
+}
+
+.card-props__title{
+    background-color: darkgray;
+    margin: inherit;
+}
+
+.card-props__title-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.card-props__title > p {
+    font-weight: 500;
+    padding: 2px 5px;
+    color: white;
+    float: left;
+}
+
+div.card-props__title > p:first-child {
+    width: 60%;
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+div.card-props__title > p:last-child{
+    width: 40%;
+    text-align: right;
+}
+
+div.card-props__title > p:last-child > span:first-child {
+    color: green;
+}
+
+div.card-props__title > p:last-child > span:last-child {
+    color: rgb(50, 50, 243);
+    font-weight: initial;
 }

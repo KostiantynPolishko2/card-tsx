@@ -11,6 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <CardProps></CardProps>
+    <CardProps></CardProps>
   </React.StrictMode>
 );
 
