@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+// import 'the-new-css-reset/css/reset.css';
 import './App.css';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Hello world!</h1>
+        <h2>Hello world!</h2>
+        <h3>Hello world!</h3>
       </header>
     </div>
   );
