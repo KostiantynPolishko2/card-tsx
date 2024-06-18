@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import 'the-new-css-reset/css/reset.css';
 import './index.css';
 import CardProps from './components/CardProps/CardProps';
-
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(

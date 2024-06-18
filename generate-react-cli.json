@@ -2,7 +2,6 @@
   "usesTypeScript": true,
   "usesStyledComponents": false,
   "usesCssModule": false,
-  "cssPreprocessor": "css",
   "testLibrary": "None",
   "component": {
     "default": {
