@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <main>
-      <CardProps name='TV Samsung QE50Q80D' price={31649} imgName='2658891.jpg'></CardProps>
+      <CardProps></CardProps>
       <CardProps name='TV LG 43QNED80T3A' price={21249} imgName='lg-43qned80t3a.jpg'></CardProps>
       <CardProps name='TV Sony KD43X75W' price={25599} imgName='800-4548736150331_h_f_l_0.jpg'></CardProps>
 
